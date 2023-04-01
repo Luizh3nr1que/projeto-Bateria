@@ -45,11 +45,19 @@ function playComposition(songArray) {
     }
 }
 
+// Adicionar evento de clique para cada div de tecla
+document.querySelectorAll('.key').forEach(key => {
+    key.addEventListener('click', () => {
+        const sound = key.getAttribute('data-key');
+        playSound(sound);
+    });
+});
+
+// Adicionar evento de toque para dispositivos móveis
 document.querySelectorAll('.key').forEach(key => {
     key.addEventListener('touchstart', () => {
         const sound = key.getAttribute('data-key');
         playSound(sound);
     });
 });
-
 
