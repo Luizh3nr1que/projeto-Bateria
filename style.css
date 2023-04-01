@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to top, #292929, #202020);
+    background: linear-gradient(to top, #252525, #161616);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -28,7 +28,7 @@ h1 {
 .key {
     width: 80px;
     height: 80px;
-    border: 2px solid #ffffff;
+    border: 2px solid #3d3d3d;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -41,27 +41,6 @@ h1 {
     border: 2px solid rgb(0, 195, 255);
     color: rgb(0, 217, 255);
 }
-
-/* .composer {
-    width: 260px;
-    margin-top: 20px;
-}
-
-.composer #input {
-    border: none;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    outline: none;
-    font-size: 17px;
-    padding: 10px 15px;
-    color: rgb(0, 217, 255);
-
-}
-
-input::placeholder {
-    color: rgb(59, 59, 59);
-    font-size: 20px;
-} */
 
 
 /*INPUT*/
@@ -163,8 +142,8 @@ input::placeholder {
     border: none;
     font-family: inherit;
     font-weight: 500;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 25, 25);
 }
 
 .btn:hover {
@@ -191,7 +170,7 @@ input::placeholder {
 }
 
 .btn::after {
-    background-color: #fff;
+    background-color: #131313;
 }
 
 .btn:hover::after {
