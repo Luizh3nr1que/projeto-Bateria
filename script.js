@@ -45,4 +45,11 @@ function playComposition(songArray) {
     }
 }
 
+document.querySelectorAll('.key').forEach(key => {
+    key.addEventListener('touchstart', () => {
+        const sound = key.getAttribute('data-key');
+        playSound(sound);
+    });
+});
+
 
